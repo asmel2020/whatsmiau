@@ -128,4 +128,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace go.mau.fi/whatsmeow => github.com/verbeux-ai/whatsmeow v1.3.7-0.20260903193840-9b528b0345e4
+replace go.mau.fi/whatsmeow => github.com/asmel2020/whatsmeow v1.3.7-0.20261020044545-85fcee5ed21b
