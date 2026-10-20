@@ -128,4 +128,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
+// Fork con keepalive de 5-8 s: los proxies residenciales (Decodo) cortan
+// túneles inactivos a los 10 s y el keepalive original era de 20-30 s.
 replace go.mau.fi/whatsmeow => github.com/asmel2020/whatsmeow v1.3.7-0.20261020044545-85fcee5ed21b
